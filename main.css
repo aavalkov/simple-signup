@@ -1,0 +1,19 @@
+.brand-logo {
+	float: left;
+	width: 25%
+}
+
+.brand-logo img {
+	width: 100%;
+}
+
+form {
+	float: right;
+	width: 70%;
+}
+
+form input {
+	width: 325px;
+	margin: 5px;
+	display: block;
+}
