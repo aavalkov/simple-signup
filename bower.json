@@ -1,0 +1,22 @@
+{
+  "name": "simple-sign-up-app",
+  "homepage": "https://github.com/aavalkov/simple-signup",
+  "authors": [
+    "Anna Valkov <anna.a.valkov@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.4.8",
+    "angular": "~1.4.8"
+  }
+}
