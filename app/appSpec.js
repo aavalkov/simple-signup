@@ -7,7 +7,7 @@ describe('optIn', function() {
 		image;
 
 	beforeEach(module("myApp"));
-	beforeEach(module ('opt-in-template.html'));
+	beforeEach(module ('app/opt-in-template.html'));
 	beforeEach(inject(function($rootScope, $compile) {
 		scope = $rootScope.$new();
 		image = '<img src="zeus.jpg">';
@@ -18,6 +18,7 @@ describe('optIn', function() {
 	}));
 	it('should show a sign up form', function(){
 		expect(element.find('form').length).toBe(1);
+		expect(element.find('input').length).toBe(3);
 	})
 
 });
